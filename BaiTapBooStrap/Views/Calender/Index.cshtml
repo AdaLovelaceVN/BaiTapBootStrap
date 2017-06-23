@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+                <!-- BEGIN PAGE HEADER-->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <!-- BEGIN THEME CUSTOMIZER-->
+                        <div id="theme-change" class="hidden-phone">
+                            <i class="icon-cogs"></i>
+                            <span class="settings">
+                                <span class="text">Theme:</span>
+                                <span class="colors">
+                                    <span class="color-default" data-style="default"></span>
+                                    <span class="color-gray" data-style="gray"></span>
+                                    <span class="color-purple" data-style="purple"></span>
+                                    <span class="color-navy-blue" data-style="navy-blue"></span>
+                                </span>
+                            </span>
+                        </div>
+                        <!-- END THEME CUSTOMIZER-->
+                        <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                        <h3 class="page-title">
+                            Calendar
+                            <small>calendar with draggable events</small>
+                        </h3>
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="#"><i class="icon-home"></i></a><span class="divider">&nbsp;</span>
+                            </li>
+                            <li><a href="#">Calendar</a><span class="divider-last">&nbsp;</span></li>
+                        </ul>
+                        <!-- END PAGE TITLE & BREADCRUMB-->
+                    </div>
+                </div>
+                <!-- END PAGE HEADER-->
+                <!-- BEGIN PAGE CONTENT-->
+                <div id="page">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <!-- BEGIN CALENDAR PORTLET-->
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h4><i class="icon-reorder"></i>Calendar</h4>
+                                    <span class="tools">
+                                        <a class="icon-chevron-down" href="javascript:;"></a>
+                                    </span>
+                                </div>
+                                <div class="widget-body">
+                                    <div class="row-fluid">
+                                        <div class="span3 responsive" data-tablet="span12 fix-margin" data-desktop="span8">
+                                            <!-- BEGIN DRAGGABLE EVENTS PORTLET-->
+                                            <h3 class="event-form-title">Draggable Events</h3>
+                                            <div id="external-events">
+                                                <form class="inline-form" />
+                                                <input type="text" value="" class="span12" placeholder="Event Title..." id="event_title" /><br />
+                                                <select id="event_priority" data-placeholder="Select Label..." class="span12 chosen">
+                                                    <option value="" />
+                                                    <option value="default" />Default
+                                                    <option value="success" />Normal
+                                                    <option value="info" />Medium
+                                                    <option value="warning" />Urgent
+                                                    <option value="important" />Important
+                                                </select>
+                                                <div class="space12"></div>
+                                                <a href="javascript:;" id="event_add" class="btn">Add Event</a>
+                                                </form>
+                                                <hr />
+                                                <div id="event_box">
+                                                </div>
+                                                <label for="drop-remove">
+                                                    <input type="checkbox" id="drop-remove" />remove after drop
+                                                </label>
+                                                <hr class="visible-phone" />
+                                            </div>
+                                            <!-- END DRAGGABLE EVENTS PORTLET-->
+                                        </div>
+                                        <div class="span9">
+                                            <div id="calendar" class="has-toolbar"></div>
+                                        </div>
+                                    </div>
+                                    <!-- END CALENDAR PORTLET-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PAGE CONTENT-->
+            </div>
+            <!-- END PAGE CONTAINER-->
+        </div>
+        <!-- END PAGE -->
+    </div>
+    <!-- END CONTAINER -->
+    

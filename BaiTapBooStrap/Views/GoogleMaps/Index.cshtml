@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row-fluid"><div class="span12">
+    <div id="theme-change" class="hidden-phone">
+    <i class="icon-cogs"></i><span class="settings">
+        <span class="text">Theme:</span><span class="colors">
+        <span class="color-default" data-style="default">
+        </span>
+        <span class="color-gray" data-style="gray">
+        </span>
+        <span class="color-purple" data-style="purple">
+        </span>
+        <span class="color-navy-blue" data-style="navy-blue"></span>
+        </span></span>
+    </div>
+    
+    <h3 class="page-title"> Google Maps <small>interactive google map samples</small></h3>
+    <ul class="breadcrumb"><li><a href="#"><i class="icon-home"></i></a><span class="divider">&nbsp;</span></li><li><a href="#">Maps</a><span class="divider">&nbsp;</span>
+        </li><li>
+        <a href="#">Google Maps</a>
+        <span class="divider-last">&nbsp;</span></li></ul></div></div>
+<div id="page">
+    <div class="row-fluid">
+    <div class="span6">
+        <div class="widget">
+        <div class="widget-title">
+            <h4><i class="icon-reorder"></i>Basic</h4><span class="tools">
+            <a href="javascript:;" class="icon-chevron-down"></a><a href="javascript:;" class="icon-remove"></a></span></div>
+        <div class="widget-body">
+            <div id="gmap_basic" class="gmaps"></div></div></div></div>
+    <div class="span6"><div class="widget"><div class="widget-title">
+        <h4><i class="icon-reorder"></i>Markers</h4><span class="tools">
+        <a href="javascript:;" class="icon-chevron-down"></a>
+        <a href="javascript:;" class="icon-remove"></a></span></div>
+        <div class="widget-body"><div id="gmap_marker" class="gmaps"></div></div></div></div></div>
+    <div class="row-fluid"><div class="span6"><div class="widget">
+        <div class="widget-title"><h4><i class="icon-reorder"></i>Geolocation</h4>
+        <span class="tools"><a href="javascript:;" class="icon-chevron-down"></a>
+            <a href="javascript:;" class="icon-remove"></a></span></div><div class="widget-body">
+        <div class="label label-important visible-ie8">Not supported in Internet Explorer 8</div><div id="gmap_geo" class="gmaps"></div></div>
+        </div></div><div class="span6">
+        <div class="widget"><div class="widget-title">
+            <h4><i class="icon-reorder"></i>Polylines</h4><span class="tools"><a href="javascript:;" class="icon-chevron-down"></a><a href="javascript:;" class="icon-remove"></a></span></div>
+        <div class="widget-body"><div id="gmap_polylines" class="gmaps"></div></div></div></div></div>
+    <div class="row-fluid"><div class="span12"><div class="widget">
+        <div class="widget-title"><h4><i class="icon-reorder"></i>Geocoding</h4>
+        <span class="tools"><a href="javascript:;" class="icon-chevron-down"></a>
+            <a href="javascript:;" class="icon-remove"></a></span>
+        </div><div class="widget-body"><form class="form-inline" action="#" />
+        <input type="text" id="gmap_geocoding_address" class="input-medium" placeholder="Address..." />
+        <input type="button" id="gmap_geocoding_btn" class="btn" value="Search" />
+        </form>
+        <div id="gmap_geocoding" class="gmaps"></div></div></div></div></div></div>

@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row-fluid">
+    <div class="span12">
+        <div id="theme-change" class="hidden-phone"><i class="icon-cogs"></i><span class="settings"><span class="text">Theme:</span><span class="colors"><span class="color-default" data-style="default"></span><span class="color-gray" data-style="gray"></span><span class="color-purple" data-style="purple"></span><span class="color-navy-blue" data-style="navy-blue"></span></span></span></div><h3 class="page-title"> QUẢN LÝ SẢN PHẨM <small>Cập nhật giá sản phẩm </small></h3>
+        <ul class="breadcrumb"><li><a href="#"><i class="icon-home"></i></a><span class="divider">&nbsp;</span></li><li><a href="#">Quản lý sản phẩm</a><span class="divider">&nbsp;</span></li><li><a href="#">Cập nhật giá sản phẩm </a><span class="divider-last">&nbsp;</span></li></ul>
+    </div>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="widget">
+            <div class="widget-title">
+                <h4><i class="icon-reorder"></i>Thêm sản phẩm</h4><span class="tools"><a href="javascript:;" class="icon-chevron-down"></a><a href="javascript:;" class="icon-remove"></a></span>
+            </div>
+            <div class="widget-body form">
+                <form action="#" class="form-horizontal">
+
+                    <div class="control-group">
+                        <label class="control-label">Tỉnh thành</label>
+                        <div class="controls"><select data-placeholder="Select Category" class="chosen" tabindex="-1" id="inputCategory"><option value="1" />All<option value="1" />TP HCM<option value="1" />Hà Nội<option value="1" />Hải Phòng<option value="1" />Quảng Ngãi</select></div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Ngày</label>
+                        <div class="controls"><input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" /></div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Loại sản phẩm</label>
+                        <div class="controls"><select data-placeholder="Select Category" class="chosen" tabindex="-1" id="inputCategory"><option value="1" />All<option value="1" />Category 1<option value="1" />Category 2<option value="1" />Category 3<option value="1" />Category 4</select></div>
+                    </div>
+                    <a id="add_row" class="btn btn-success pull-left">Add Row</a><a id='delete_row' class="pull-left btn btn-primary">Delete Row</a>
+                    <div class="control-group">
+                        <table class="table table-bordered table-hover" id="tab_logic">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">
+                                        #
+                                    </th>
+                                    <th class="text-center">
+                                        Sản phẩm
+                                    </th>
+                                    <th class="text-center">
+                                        Giá
+                                    </th>
+                                    <th class="text-center">
+                                        Ghi chú
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id='addr0'>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>
+                                        <input type="text" name='name0' placeholder='Name' class="form-control" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name='mail0' placeholder='Mail' class="form-control" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name='mobile0' placeholder='Mobile' class="form-control" />
+                                    </td>
+                                </tr>
+                                <tr id='addr1'></tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" id="add_row" class="btn btn-success">Save</button>
+                        <button type="button" class="btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

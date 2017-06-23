@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row-fluid">
+    <div class="span12">
+        <div id="theme-change" class="hidden-phone"><i class="icon-cogs"></i><span class="settings"><span class="text">Theme:</span><span class="colors"><span class="color-default" data-style="default"></span><span class="color-gray" data-style="gray"></span><span class="color-purple" data-style="purple"></span><span class="color-navy-blue" data-style="navy-blue"></span></span></span></div><h3 class="page-title"> QUẢN LÝ SẢN PHẨM <small>Thêm sản phẩm </small></h3>
+        <ul class="breadcrumb"><li><a href="#"><i class="icon-home"></i></a><span class="divider">&nbsp;</span></li><li><a href="#">Quản lý sản phẩm</a><span class="divider">&nbsp;</span></li><li><a href="#">Thêm sản phẩm</a><span class="divider-last">&nbsp;</span></li></ul>
+    </div>
+</div>
+
+
+    <div class="row-fluid">
+    <div class="span12">
+        <div class="widget">
+        <div class="widget-title">
+            <h4><i class="icon-reorder"></i>Thêm sản phẩm</h4><span class="tools"><a href="javascript:;" class="icon-chevron-down"></a><a href="javascript:;" class="icon-remove"></a></span></div>
+            <div class="widget-body form">
+            <form action="#" class="form-horizontal" >
+
+                <div class="control-group">
+                    <label class="control-label">Tỉnh thành</label>
+                    <div class="controls"><select data-placeholder="Select Category" class="chosen" tabindex="-1" id="inputCategory"><option value="1" />All<option value="1" />TP HCM<option value="1" />Hà Nội<option value="1" />Hải Phòng<option value="1" />Quảng Ngãi</select></div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Loại sản phẩm</label>
+                    <div class="controls"><select data-placeholder="Select Category" class="chosen" tabindex="-1" id="inputCategory"><option value="1" />All<option value="1" />Category 1<option value="1" />Category 2<option value="1" />Category 3<option value="1" />Category 4</select></div>
+                </div>
+                <div class="control-group">
+                <label class="control-label" for="inputWarning">Sản phẩm</label>
+                    <div class="controls"><input type="text" class="span6" id="inputWarning" /></div>
+                </div>
+                <div class="control-group ">
+                <label class="control-label" for="inputError">Ghi chú</label>
+                <div class="controls"><input type="text" class="span6" id="inputError" />
+                    </div>
+                </div>
+                <div class="form-actions"><button type="submit" class="btn btn-success">Save</button>
+                <button type="button" class="btn">Cancel</button></div>
+            </form>
+            </div>
+        </div>
+    </div>
+    </div>

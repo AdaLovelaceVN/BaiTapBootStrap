@@ -1,0 +1,164 @@
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\ApplicationInsights.config
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\csc.exe
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\System.Collections.Immutable.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\System.Reflection.Metadata.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\vbc.exe
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\VBCSCompiler.exe
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\VBCSCompiler.exe.config
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.dll.config
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.pdb
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Antlr3.Runtime.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.SqlServer.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.DependencyCollector.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Web.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.WindowsServer.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.ApplicationInsights.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Google.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Web.Infrastructure.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Newtonsoft.Json.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Owin.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Helpers.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Mvc.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Optimization.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Razor.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Deployment.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Razor.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\WebGrease.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.DependencyCollector.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Web.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.WindowsServer.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.ApplicationInsights.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Helpers.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Mvc.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Optimization.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Razor.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Deployment.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Razor.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Antlr3.Runtime.pdb
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Newtonsoft.Json.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.SqlServer.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Google.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.csprojResolveAssemblyReference.cache
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.dll
+D:\Study Boostrap\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.pdb
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\ApplicationInsights.config
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\csc.exe
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\System.Collections.Immutable.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\System.Reflection.Metadata.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\vbc.exe
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\VBCSCompiler.exe
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\roslyn\VBCSCompiler.exe.config
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.dll.config
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\BaiTapBooStrap.pdb
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Antlr3.Runtime.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.SqlServer.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.DependencyCollector.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Web.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.WindowsServer.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.ApplicationInsights.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Google.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Web.Infrastructure.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Newtonsoft.Json.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Owin.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Helpers.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Mvc.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Optimization.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Razor.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Deployment.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Razor.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\WebGrease.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.DependencyCollector.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.Web.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AI.WindowsServer.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.ApplicationInsights.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Helpers.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Mvc.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Optimization.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.Razor.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Deployment.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\System.Web.WebPages.Razor.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Antlr3.Runtime.pdb
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Newtonsoft.Json.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\EntityFramework.SqlServer.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Google.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.csprojResolveAssemblyReference.cache
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.dll
+D:\Github\BaiTapBooStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.pdb
