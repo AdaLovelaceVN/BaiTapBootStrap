@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapBooStrap", "BaiTapBooStrap\BaiTapBooStrap.csproj", "{FB74115C-12CB-44FA-B29E-E6D9BC040B8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateDemo", "..\NhibernateDemo\NHibernateDemo\NHibernateDemo.csproj", "{3E55CAE1-92B4-49F1-96F8-B86F7A3E3AB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateDemo", "NHibernateDemo\NHibernateDemo.csproj", "{3E55CAE1-92B4-49F1-96F8-B86F7A3E3AB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
