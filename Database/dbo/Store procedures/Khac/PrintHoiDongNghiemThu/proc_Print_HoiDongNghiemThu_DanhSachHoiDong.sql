@@ -1,0 +1,9 @@
+﻿CREATE PROCEDURE [dbo].[proc_Print_HoiDongNghiemThu_DanhSachHoiDong]
+	@ID int
+	--ID:HOIDONGNGHIEMTHUID
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+	SELECT * FROM DANHSACHHOIDONG WHERE HoiDongNghiemThuID = @ID
+END

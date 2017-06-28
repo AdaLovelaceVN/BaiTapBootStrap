@@ -1,0 +1,10 @@
+D:\Project\ChoRay\NghhienCuuKhoaHoc\GuiAnhThucTap\Database\bin\Debug\Database.dacpac
+D:\Project\ChoRay\NghhienCuuKhoaHoc\GuiAnhThucTap\Database\bin\Debug\Database.dll
+D:\Project\ChoRay\NghhienCuuKhoaHoc\GuiAnhThucTap\Database\bin\Debug\Database.pdb
+D:\Project\ChoRay\NghhienCuuKhoaHoc\GuiAnhThucTap\Database\obj\Debug\Database.dll
+D:\Project\ChoRay\NghhienCuuKhoaHoc\GuiAnhThucTap\Database\obj\Debug\Database.pdb
+D:\DoAn\GuiAnhThucTap\Database\bin\Debug\Database.dacpac
+D:\DoAn\GuiAnhThucTap\Database\bin\Debug\Database.dll
+D:\DoAn\GuiAnhThucTap\Database\bin\Debug\Database.pdb
+D:\DoAn\GuiAnhThucTap\Database\obj\Debug\Database.dll
+D:\DoAn\GuiAnhThucTap\Database\obj\Debug\Database.pdb

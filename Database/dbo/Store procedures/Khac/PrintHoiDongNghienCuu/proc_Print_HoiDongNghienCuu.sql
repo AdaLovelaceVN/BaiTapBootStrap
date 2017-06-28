@@ -1,0 +1,22 @@
+﻿CREATE PROCEDURE [dbo].[proc_Print_HoiDongNghienCuu]
+	@HoiDongID int
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT 
+		HD.*,
+		DVBH.TenDonViBanHanh,
+		DT.TenDeTai,
+		DT.MaSoDeTai,
+		DT.CNDT_HoTen,
+		DT.ThucHienTuNgay,
+		DT.ThucHienDenNgay,
+		DT.KinhPhi,
+		CQL.TenCapQuanLy
+		FROM 
+		(SELECT HDNC.HoiDongNghienCuuID,HDNC.SoQuyetDinh,HDNC.TrichYeu,HDNC.NgayQuyetDinh,HDNC.GhiChu,HDNC.DMDonViBanHanhID,HDNC.HDNC_DeTaiID FROM HOIDONGNGHIENCUU HDNC WHERE HDNC.HoiDongNghienCuuID = @HoiDongID ) HD 
+		INNER JOIN DM_DONVIBANHANH DVBH ON HD.DMDonViBanHanhID = DVBH.DMDonViBanHanhID
+		 INNER JOIN DETAI DT ON HD.HDNC_DeTaiID = DT.DeTaiID
+		 INNER JOIN DM_CAPQUANLY CQL ON DT.DMCapQuanLyID = CQL.DMCapQuanLyID
+END

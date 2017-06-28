@@ -1,0 +1,8 @@
+﻿---IV--HopTacQuocTe
+CREATE PROC dbo.proc_PrintBCDK_IV_HopTacQuocTe
+	@BCKQID INT
+AS
+SELECT 
+*,CONVERT(nvarchar(20),ThoiGian,103) pThoiGian
+ FROM HOPTACQUOCTE NOLOCK WHERE BaoCaoKetQuaID=@BCKQID
+GO
