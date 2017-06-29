@@ -13,16 +13,15 @@ namespace Swinkaran.Nhbnt.Web.Controllers
 {
     public class BookController : Controller
     {
+        UnitOfWork unitOfWork=new UnitOfWork();
         // GET: Book
         public ActionResult Index()
         {
-            ViewBag.Message = "Your application description page.";
-            using (RepositoryBase repository = new RepositoryBase())
+            
+            using (var tx = unitOfWork.BeginTransaction())
             {
-                repository.BeginTransaction();
-                var persons = repository.ToList<Book>();
-                return View(persons.ToList());
-
+                // Do transactional things here!
+                return View(unitOfWork.GetRepository<Book>().All());
             }
         }
 
@@ -31,23 +30,13 @@ namespace Swinkaran.Nhbnt.Web.Controllers
 
         
         // GET: People/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(Int64? id)
         {
-            using (RepositoryBase repository = new RepositoryBase())
+            using (var tx = unitOfWork.BeginTransaction())
             {
-                if (id == null)
-                {
-                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-                }
-
-                var people = repository.ToList<Book>().Where(b => b.Id == id).FirstOrDefault();
-                if (people == null)
-                {
-                    return HttpNotFound();
-                }
-                return View(people);
-
-            }
+                // Do transactional things here!
+                return View(unitOfWork.GetRepository<Book>().FindBy(id));
+            }         
         }
 
         // GET: People/Create
@@ -63,36 +52,26 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create( Book person)
         {
-            using (RepositoryBase repository = new RepositoryBase())
+            using (var tx = unitOfWork.BeginTransaction())
             {
-                repository.BeginTransaction();
-                if (ModelState.IsValid)
+                // Do transactional things here!
+                if (unitOfWork.GetRepository<Book>().Add(person))
                 {
-                    repository.Save(person);
-                    repository.CommitTransaction();
+                    
                     return RedirectToAction("Index");
                 }
+                return View();
             }
-            return View();
+           
         }
 
         // GET: People/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(Int64? id)
         {
-            using (RepositoryBase repository = new RepositoryBase())
+            using (var tx = unitOfWork.BeginTransaction())
             {
-                if (id == null)
-                {
-                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-                }
-
-                var people = repository.ToList<Book>().Where(b => b.Id == id).FirstOrDefault();
-                if (people == null)
-                {
-                    return HttpNotFound();
-                }
-                return View(people);
-
+                // Do transactional things here!
+                return View(unitOfWork.GetRepository<Book>().FindBy(id));
             }
         }
 
@@ -103,22 +82,20 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Book person)
         {
-            using (RepositoryBase repository = new RepositoryBase())
+            using (var tx = unitOfWork.BeginTransaction())
             {
-                repository.BeginTransaction();
+                // Do transactional things here!
                 if (ModelState.IsValid)
                 {
-
-                    repository.Save(person);
-                    repository.CommitTransaction();
+                    unitOfWork.GetRepository<Book>().Update(person);
                     return RedirectToAction("Index");
                 }
+                return View();
             }
-            return View();
         }
 
         // GET: People/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(Int64? id)
         {
             using (RepositoryBase repository = new RepositoryBase())
             {
@@ -126,14 +103,13 @@ namespace Swinkaran.Nhbnt.Web.Controllers
                 {
                     return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
                 }
-
-                var people = repository.ToList<Book>().Where(b => b.Id == id).FirstOrDefault();
-                if (people == null)
+                using (var tx = unitOfWork.BeginTransaction())
                 {
-                    return HttpNotFound();
+                    // Do transactional things here!
+                    ViewBag.SubmitAction = "Confirm delete";
+                    return View("Edit", unitOfWork.GetRepository<Book>().FindBy(id));
                 }
-                ViewBag.SubmitAction = "Confirm delete";
-                return View("Edit",people);
+                
 
             }
         }
@@ -143,25 +119,21 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(Book person)
         {
-            using (RepositoryBase repository = new RepositoryBase())
+            using(var tx = unitOfWork.BeginTransaction())
             {
-                repository.BeginTransaction();
-                if (person == null)
+                // Do transactional things here!
+                if (ModelState.IsValid)
                 {
-                    return HttpNotFound();
+                    unitOfWork.GetRepository<Book>().Delete(person);
+                    return RedirectToAction("Index");
                 }
-                repository.Delete(person);
-                repository.CommitTransaction();
+                return View();
             }
-            return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            using (RepositoryBase repository = new RepositoryBase())
-            {
-                repository.Dispose();
-            }
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //        unitOfWork.Dispose();
+        //}
     }
 }

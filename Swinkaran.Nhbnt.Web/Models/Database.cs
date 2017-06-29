@@ -18,8 +18,12 @@ namespace nhibernate.Models
                     configuration.Configure(configurationPath);
                     var bookConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Book.hbm.xml");
                     configuration.AddFile(bookConfigurationFile);
-                   _sessionFactory = configuration.BuildSessionFactory();
-                    
+                    _sessionFactory = configuration.BuildSessionFactory();
+                    //var configuration = new Configuration();
+                    //configuration.Configure();
+                    //configuration.AddAssembly("NHibernateTest.Types");
+                    //_sessionFactory = configuration.BuildSessionFactory();
+
                 }
                 return _sessionFactory;
             }
