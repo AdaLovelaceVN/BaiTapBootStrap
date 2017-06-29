@@ -1,8 +1,0 @@
-﻿---VIII
----tinh hinh thực tế, chế độ báo cáo
-CREATE PROC dbo.proc_PrintBCDK_VIII_TINHHINHTHUCHIENBAOCAO
-	@BCKQID INT
-AS
-SELECT *,CONVERT(nvarchar(20),ThoiGianThucHien,103) pThoiGianThucHien
- FROM TINHHINHTHUCHIENBAOCAO NOLOCK WHERE BaoCaoKetQuaID=@BCKQID
-GO
