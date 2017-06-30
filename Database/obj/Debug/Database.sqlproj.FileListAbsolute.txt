@@ -17,3 +17,8 @@ D:\Study Boostrap\BaiTapBootStrap\Database\obj\Debug\postdeploy.sql
 D:\Study Boostrap\BaiTapBootStrap\Database\obj\Debug\predeploy.sql
 D:\Study Boostrap\BaiTapBootStrap\Database\obj\Debug\Database.dll
 D:\Study Boostrap\BaiTapBootStrap\Database\obj\Debug\Database.pdb
+D:\Github\BaiTapBootStrap\Database\bin\Debug\Database.dacpac
+D:\Github\BaiTapBootStrap\Database\bin\Debug\Database.dll
+D:\Github\BaiTapBootStrap\Database\bin\Debug\Database.pdb
+D:\Github\BaiTapBootStrap\Database\obj\Debug\Database.dll
+D:\Github\BaiTapBootStrap\Database\obj\Debug\Database.pdb

@@ -10,6 +10,7 @@ using NHibernate.Dialect;
 using NHibernate.Cfg;
 using NHibernate.Driver;
 using System.Reflection;
+using NHibernateDemo;
 
 namespace Swinkaran.Nhbnt.Web.Controllers
 {
