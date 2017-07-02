@@ -17,12 +17,15 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         // GET: Book
         public ActionResult Index()
         {
-            
-            using (var tx = unitOfWork.BeginTransaction())
-            {
-                // Do transactional things here!
-                return View(unitOfWork.GetRepository<Book>().All());
-            }
+
+            //using (var tx = unitOfWork.BeginTransaction())
+            //{
+            //    // Do transactional things here!
+            //    return View(unitOfWork.GetRepository<Book>().All());
+            //}
+
+            var listItem = unitOfWork.GetRepository<Book>().All().ToList();
+            return View(listItem);
         }
 
         // GET: Book/Details/5

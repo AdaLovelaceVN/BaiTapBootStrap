@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{371FE04D-BB89-4114-84EC-83BE8E8920FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapBooStrap", "BaiTapBooStrap\BaiTapBooStrap.csproj", "{FB74115C-12CB-44FA-B29E-E6D9BC040B8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateDemo", "NHibernateDemo\NHibernateDemo.csproj", "{3E55CAE1-92B4-49F1-96F8-B86F7A3E3AB5}"
+<<<<<<< HEAD
+=======
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swinkaran.Nhbnt.Web", "Swinkaran.Nhbnt.Web\Swinkaran.Nhbnt.Web.csproj", "{AA1B5402-D6C6-4A44-8106-2C3952106426}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{371FE04D-BB89-4114-84EC-83BE8E8920FC}"
+>>>>>>> 587ff5a5fd66da5f3500e890ee5a658306b7934e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swinkaran.Nhbnt.Web", "Swinkaran.Nhbnt.Web\Swinkaran.Nhbnt.Web.csproj", "{AA1B5402-D6C6-4A44-8106-2C3952106426}"
 EndProject
@@ -17,12 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{FB74115C-12CB-44FA-B29E-E6D9BC040B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB74115C-12CB-44FA-B29E-E6D9BC040B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB74115C-12CB-44FA-B29E-E6D9BC040B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +34,15 @@ Global
 		{AA1B5402-D6C6-4A44-8106-2C3952106426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1B5402-D6C6-4A44-8106-2C3952106426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1B5402-D6C6-4A44-8106-2C3952106426}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+>>>>>>> 587ff5a5fd66da5f3500e890ee5a658306b7934e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

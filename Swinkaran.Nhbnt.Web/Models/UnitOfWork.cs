@@ -12,7 +12,13 @@ namespace Swinkaran.Nhbnt.Web.Models
     {
         private readonly ISessionFactory _sessionFactory;
         private ITransaction _transaction;
-        private Dictionary<Type, object> _repositories;
+        private static Dictionary<Type, object> _repositories = new Dictionary<Type, object>();
+
+        private Dictionary<Type, object> Repositories
+        {
+            get { return _repositories; }
+            set { _repositories = value; }
+        }
 
         public ISession Session { get; private set; }
         public UnitOfWork()
@@ -28,34 +34,38 @@ namespace Swinkaran.Nhbnt.Web.Models
 
         public IReadWriteRepository<TEntity> GetRepository<TEntity>() where TEntity : class
         {
-            //foreach (var key in _repositories.Keys)
+            if (Repositories != null)
+            {
+                foreach (var key in Repositories.Keys)
+                {
+                    if (key == typeof(TEntity))
+                    {
+                        return Repositories[typeof(TEntity)] as IReadWriteRepository<TEntity>;
+                    }
+                }
+            }
+
+            var repository = new Repository<TEntity>(Session);
+            _repositories.Add(typeof(TEntity), repository);
+            return repository;
+
+            //if (_repositories == null) _repositories = new Dictionary<Type, object>();
+            //IReadWriteRepository<TEntity> repository = null;
+
+            //if (_repositories.ContainsKey(typeof(TEntity)))
             //{
-            //    if (key == typeof(TEntity))
-            //    {
-            //        return _repositories[typeof(TEntity)] as IReadWriteRepository<TEntity>;
-            //    }
+            //    // In case exist, return.
+            //    repository = _repositories[typeof(TEntity)] as IReadWriteRepository<TEntity>;
+            //}
+            //else
+            //{
+            //    // In case not custom, return generic type.                
+            //    repository = new  Repository<TEntity>(Session);
+
+            //    _repositories.Add(typeof(TEntity), repository);
             //}
 
-            //var repository = new Repository<TEntity>(Session);
-            //_repositories.Add(typeof(TEntity), repository);
             //return repository;
-            if (_repositories == null) _repositories = new Dictionary<Type, object>();
-            IReadWriteRepository<TEntity> repository = null;
-
-            if (_repositories.ContainsKey(typeof(TEntity)))
-            {
-                // In case exist, return.
-                repository = _repositories[typeof(TEntity)] as IReadWriteRepository<TEntity>;
-            }
-            else
-            {
-                // In case not custom, return generic type.                
-                repository = new  Repository<TEntity>(Session);
-
-                _repositories.Add(typeof(TEntity), repository);
-            }
-
-            return repository;
         }
 
         public ITransaction BeginTransaction()

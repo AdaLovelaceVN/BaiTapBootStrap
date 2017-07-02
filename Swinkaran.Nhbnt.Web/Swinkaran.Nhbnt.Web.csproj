@@ -199,7 +199,6 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Repository.cs" />
     <Compile Include="Models\RepositoryBase.cs" />
-    <Compile Include="Models\RepositoryTest.cs" />
     <Compile Include="Models\UnitOfWork.cs" />
     <Compile Include="NHibernateSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
