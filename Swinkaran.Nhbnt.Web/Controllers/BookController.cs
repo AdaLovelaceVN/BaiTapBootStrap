@@ -18,12 +18,6 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         public ActionResult Index()
         {
 
-            //using (var tx = unitOfWork.BeginTransaction())
-            //{
-            //    // Do transactional things here!
-            //    return View(unitOfWork.GetRepository<Book>().All());
-            //}
-
             var listItem = unitOfWork.GetRepository<Book>().All().ToList();
             return View(listItem);
         }
@@ -55,12 +49,12 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create( Book person)
         {
+            
             using (var tx = unitOfWork.BeginTransaction())
             {
                 // Do transactional things here!
                 if (unitOfWork.GetRepository<Book>().Add(person))
                 {
-                    
                     return RedirectToAction("Index");
                 }
                 return View();
@@ -84,13 +78,14 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Book person)
+
         {
             using (var tx = unitOfWork.BeginTransaction())
             {
                 // Do transactional things here!
-                if (ModelState.IsValid)
+                if (unitOfWork.GetRepository<Book>().Update(person))
                 {
-                    unitOfWork.GetRepository<Book>().Update(person);
+                    
                     return RedirectToAction("Index");
                 }
                 return View();
@@ -122,12 +117,12 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(Book person)
         {
-            using(var tx = unitOfWork.BeginTransaction())
+            using (var tx = unitOfWork.BeginTransaction())
             {
                 // Do transactional things here!
-                if (ModelState.IsValid)
+                if (unitOfWork.GetRepository<Book>().Delete(person))
                 {
-                    unitOfWork.GetRepository<Book>().Delete(person);
+                    
                     return RedirectToAction("Index");
                 }
                 return View();
@@ -136,7 +131,7 @@ namespace Swinkaran.Nhbnt.Web.Controllers
 
         //protected override void Dispose(bool disposing)
         //{
-        //        unitOfWork.Dispose();
+        //    unitOfWork.Dispose();
         //}
     }
 }

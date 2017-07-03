@@ -49,7 +49,7 @@ namespace Swinkaran.Nhbnt.Web.Models
             _repositories.Add(typeof(TEntity), repository);
             return repository;
 
-            //if (_repositories == null) _repositories = new Dictionary<Type, object>();
+           // if (_repositories == null) _repositories = new Dictionary<Type, object>();
             //IReadWriteRepository<TEntity> repository = null;
 
             //if (_repositories.ContainsKey(typeof(TEntity)))
