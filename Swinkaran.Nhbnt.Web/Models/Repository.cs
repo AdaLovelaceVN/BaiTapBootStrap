@@ -22,6 +22,7 @@ namespace Swinkaran.Nhbnt.Web.Models
         public bool Add(TEntity entity)
         {
             _session.Save(entity);
+            _session.Flush();
             return true;
         }
 
@@ -30,13 +31,17 @@ namespace Swinkaran.Nhbnt.Web.Models
             foreach (TEntity entity in entities)
             {
                 _session.Save(entity);
+                _session.Flush();
             }
             return true;
         }
 
         public bool Update(TEntity entity)
         {
+            // _session.Merge(entity);
+            _session.Clear();
             _session.Update(entity);
+            _session.Flush();
             return true;
         }
 
@@ -44,14 +49,20 @@ namespace Swinkaran.Nhbnt.Web.Models
         {
             foreach (TEntity entity in entities)
             {
+                _session.Clear();
                 _session.Update(entity);
+                _session.Flush();
             }
             return true;
         }
 
         public bool Delete(TEntity entity)
         {
+            // _session.Evict(entity);
+            //TEntity findAAgain = _session.Merge(entity);
+            _session.Clear();
             _session.Delete(entity);
+            _session.Flush();
             return true;
         }
 
@@ -59,7 +70,8 @@ namespace Swinkaran.Nhbnt.Web.Models
         {
             foreach (TEntity entity in entities)
             {
-                _session.Delete(entity);
+                Object findAAgain = _session.Merge(entity);
+                _session.Delete(findAAgain);
             }
             return true;
         }

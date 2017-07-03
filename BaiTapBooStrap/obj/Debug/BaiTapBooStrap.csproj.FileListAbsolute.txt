@@ -333,3 +333,9 @@ C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\BaiTapBooStrap\obj\Debug\BaiTap
 C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.dll
 C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\BaiTapBooStrap\obj\Debug\BaiTapBooStrap.pdb
 >>>>>>> c2ec603651b8da081262b65a1cedc0a07efc1954
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\Castle.Core.dll
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\log4net.dll
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\NHibernate.ByteCode.Castle.dll
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\Castle.Core.xml
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\log4net.xml
+D:\Study Boostrap\BaiTapBootStrap\BaiTapBooStrap\bin\NHibernate.ByteCode.Castle.pdb
