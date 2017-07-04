@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swinkaran.Nhbnt.Web", "Swin
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{371FE04D-BB89-4114-84EC-83BE8E8920FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate_repository.Web", "NHibernate_Repository\NHibernate_repository.Web.csproj", "{B516C040-4ACB-4977-BA90-229209C26F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{371FE04D-BB89-4114-84EC-83BE8E8920FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B516C040-4ACB-4977-BA90-229209C26F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B516C040-4ACB-4977-BA90-229209C26F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B516C040-4ACB-4977-BA90-229209C26F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B516C040-4ACB-4977-BA90-229209C26F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
