@@ -94,7 +94,18 @@ namespace Swinkaran.Nhbnt.Web.Models
         {
             return _session.Get<TEntity>(id);
         }
-
+        public bool Check_Exit(object id)
+        {
+            try
+            {
+                TEntity T = null;
+                T = _session.Get<TEntity>(id);
+                return true;
+            }catch(Exception ex)
+            {
+                return false;
+            }
+        }
         public System.Linq.IQueryable<TEntity> FilterBy(System.Linq.Expressions.Expression<System.Func<TEntity, bool>> expression)
         {
             return All().Where(expression).AsQueryable();

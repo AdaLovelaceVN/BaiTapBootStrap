@@ -4,4 +4,4 @@ CREATE TABLE [dbo].[Book](
 	[Title] [nvarchar](50) NULL,
 	[Author] [nvarchar](50) NULL,
 	[Genre] [nvarchar](50) NULL
-)
+) ON [PRIMARY]

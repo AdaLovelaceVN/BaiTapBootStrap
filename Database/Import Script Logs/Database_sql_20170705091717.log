@@ -1,0 +1,17 @@
+05/07/2017 4:17:17 CH	This log contains information about the import operation of the script 'Database.sql' into project 'Database' on computer 'DESKTOP-J850NJH' by user'DuyAnh.
+05/07/2017 4:17:17 CH	Started importing file: C:\Users\DuyAnh\Desktop\Database.sql 
+05/07/2017 4:17:17 CH	File name C:\Users\DuyAnh\Desktop\Database.sql (size: 11664)
+05/07/2017 4:17:17 CH	Parsing import script
+05/07/2017 4:17:18 CH	Total number of batches in script: 48
+05/07/2017 4:17:18 CH	Total number of statements in script: 4
+05/07/2017 4:17:18 CH	The script was successfully imported into the project.
+05/07/2017 4:17:18 CH	Analyzing schema objects...
+05/07/2017 4:17:18 CH	Scanning project for duplicate elements
+05/07/2017 4:17:18 CH	Element 'Book' was merged into the existing script: 'C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\dbo\Tables\Boook.sql'.
+05/07/2017 4:17:18 CH	Element 'Customers' was merged into the existing script: 'C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\dbo\Tables\Customers.sql'.
+05/07/2017 4:17:18 CH	Element 'Order' was merged into the existing script: 'C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\dbo\Tables\Order.sql'.
+05/07/2017 4:17:18 CH	Element 'FK_Order_Customers1' was merged into the existing script: 'C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\dbo\Tables\Order.sql'.
+05/07/2017 4:17:18 CH	Finished duplicate element processing
+05/07/2017 4:17:18 CH	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+05/07/2017 4:17:18 CH	A summary of the import was saved to the following location: C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\Import Script Logs\Database_sql_20170705091717.log
+05/07/2017 4:17:18 CH	Click Finish to continue...

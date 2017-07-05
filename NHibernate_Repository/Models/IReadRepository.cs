@@ -13,5 +13,6 @@ namespace Swinkaran.Nhbnt.Web.Models
         TEntity FindBy(Expression<Func<TEntity, bool>> expression);
         TEntity FindBy(object id);
         IQueryable<TEntity> FilterBy(Expression<Func<TEntity, bool>> expression);
+        bool Check_Exit(object id);
     }
 }

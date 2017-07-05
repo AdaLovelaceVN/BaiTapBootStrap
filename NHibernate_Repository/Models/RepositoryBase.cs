@@ -85,6 +85,11 @@ namespace nhibernate.Models
                 CloseSession();
             }
         }
+
+        public bool Check_Exit(object id)
+        {
+            throw new NotImplementedException();
+        }
         #endregion
     }
 }

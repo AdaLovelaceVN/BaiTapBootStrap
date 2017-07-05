@@ -12,5 +12,6 @@ namespace nhibernate.Models
         void Delete(object obj);
         object GetById(Type objType, object objId);
         IQueryable<TEntity> ToList<TEntity>();
+        bool Check_Exit(object id);
     }
 }
