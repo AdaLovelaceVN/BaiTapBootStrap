@@ -17,7 +17,7 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            var listItem = unitOfWork.GetRepository<Customers>().All().ToList();
+            var listItem = unitOfWork.GetRepository<Customer>().All().ToList();
             return View(listItem);
         }
 
@@ -31,13 +31,13 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Customers customer)
+        public ActionResult Create(Customer customer)
         {
 
             using (var tx = unitOfWork.BeginTransaction())
             {
                 // Do transactional things here!
-                if (unitOfWork.GetRepository<Customers>().Add(customer))
+                if (unitOfWork.GetRepository<Customer>().Add(customer))
                 {
                     return RedirectToAction("Index");
                 }

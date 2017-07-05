@@ -16,12 +16,12 @@ namespace nhibernate.Models
                     var configuration = new Configuration();
                     var configurationPath = HttpContext.Current.Server.MapPath(@"~\Models\hibernate.cfg.xml");
                     configuration.Configure(configurationPath);
-                    var bookConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Book.hbm.xml");
+                    //var bookConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Book.hbm.xml");
                     var customersConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Customer.hbm.xml");
-                    var ordersConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Orders.hbm.xml");
-                    configuration.AddFile(bookConfigurationFile);
+                    //var ordersConfigurationFile = HttpContext.Current.Server.MapPath(@"~\Mappings\Orders.hbm.xml");
+                    //configuration.AddFile(bookConfigurationFile);
                     configuration.AddFile(customersConfigurationFile);
-                    configuration.AddFile(ordersConfigurationFile);
+                    //configuration.AddFile(ordersConfigurationFile);
                     _sessionFactory = configuration.BuildSessionFactory();
 
                 }

@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="Database.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\DUYANH\DOCUMENTS\GITHUB\BAITAPBOOTSTRAP\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
+			<Metadata Name="FileName" Value="D:\GITHUB\BAITAPBOOTSTRAP\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
 			<Metadata Name="AssemblyName" Value="Database" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\Database.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="D:\Github\BaiTapBootStrap\Database\obj\Debug\Database.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -318,17 +318,8 @@
 			</Relationship>
 			<AttachedAnnotation Disambiguator="3" />
 		</Element>
-		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Order_1]">
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Order]">
 			<Relationship Name="ColumnSpecifications">
-				<Entry>
-					<Element Type="SqlIndexedColumnSpecification">
-						<Relationship Name="Column">
-							<Entry>
-								<References Name="[dbo].[Order].[CustomerID]" />
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 				<Entry>
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
@@ -342,11 +333,6 @@
 			<Relationship Name="DefiningTable">
 				<Entry>
 					<References Name="[dbo].[Order]" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="Filegroup">
-				<Entry>
-					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
 				</Entry>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="4" />
