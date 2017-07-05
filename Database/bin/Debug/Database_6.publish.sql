@@ -62,7 +62,11 @@ CREATE TABLE [dbo].[Order] (
     [OrderID]    INT             IDENTITY (1, 1) NOT NULL,
     [OrderDate]  DATETIME        NOT NULL,
     [ShipToName] NVARCHAR (1000) NOT NULL,
+<<<<<<< HEAD
     CONSTRAINT [PK_Order] PRIMARY KEY CLUSTERED ([OrderID] ASC)
+=======
+    CONSTRAINT [PK_Order_1] PRIMARY KEY CLUSTERED ([CustomerID] ASC, [OrderID] ASC) ON [PRIMARY]
+>>>>>>> 14fbc891ea7c1e821ce06249ce84f5ceb98045f9
 ) ON [PRIMARY];
 
 
