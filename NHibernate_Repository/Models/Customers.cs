@@ -7,17 +7,21 @@ namespace Swinkaran.Nhbnt.Web.Models
 {
     public class Customers
     {
-        UnitOfWork unitOfWork = new UnitOfWork();
-        public Customers() {}
-
-        public virtual int CustomerID { get; }
-        public virtual string companyName{get;set;}
+        public virtual int CustomerID { get; set; }
+        public virtual string CompanyName { get; set; }
         public virtual string ContactName { get; set; }
 
-        public IList<Orders> Orders()
+
+        private IList<Order> orders = new List<Order>();
+        public virtual IList<Order> Orders
         {
-            return unitOfWork.GetRepository<Orders>().All().ToList();
+            get { return new List<Order>(orders).AsReadOnly(); }
+            protected set
+            {
+                orders = value;
+            }
         }
+
 
     }
 }

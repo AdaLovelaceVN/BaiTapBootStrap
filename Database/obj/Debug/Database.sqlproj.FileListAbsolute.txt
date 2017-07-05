@@ -31,3 +31,8 @@ C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\Model.xml
 C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\refactor.xml
 C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\postdeploy.sql
 C:\Users\DuyAnh\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\predeploy.sql
+C:\Users\Cuong PC\Documents\GitHub\BaiTapBootStrap\Database\bin\Debug\Database.dacpac
+C:\Users\Cuong PC\Documents\GitHub\BaiTapBootStrap\Database\bin\Debug\Database.dll
+C:\Users\Cuong PC\Documents\GitHub\BaiTapBootStrap\Database\bin\Debug\Database.pdb
+C:\Users\Cuong PC\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\Database.dll
+C:\Users\Cuong PC\Documents\GitHub\BaiTapBootStrap\Database\obj\Debug\Database.pdb
