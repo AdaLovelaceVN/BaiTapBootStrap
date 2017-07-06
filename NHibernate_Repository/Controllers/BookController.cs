@@ -18,15 +18,11 @@ namespace Swinkaran.Nhbnt.Web.Controllers
         public ActionResult Index()
         {
             //UnitOfWork unitOfWork = new UnitOfWork();
-<<<<<<< HEAD
             var listItem1 = unitOfWork.GetRepository<Customer>().All().ToList();
             
             var listItem = unitOfWork.GetRepository<Book>().All().ToList();
-=======
-            var listItem = unitOfWork.GetRepository<Customers>().All().ToList();
-            var listOrder = listItem[0].Orders.ToList();
+            //var listOrder = listItem[0].Orders.ToList();
            // var listItem = unitOfWork.GetRepository<Book>().All().ToList();
->>>>>>> 14fbc891ea7c1e821ce06249ce84f5ceb98045f9
             return View(listItem);
         }
 
