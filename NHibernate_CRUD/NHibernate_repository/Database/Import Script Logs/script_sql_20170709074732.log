@@ -1,0 +1,16 @@
+09/07/2017 2:47:32 CH	This log contains information about the import operation of the script 'script.sql' into project 'Database' on computer 'DESKTOP-J850NJH' by user'DuyAnh.
+09/07/2017 2:47:32 CH	Started importing file: C:\Users\DuyAnh\Documents\script.sql 
+09/07/2017 2:47:32 CH	File name C:\Users\DuyAnh\Documents\script.sql (size: 10484)
+09/07/2017 2:47:32 CH	Parsing import script
+09/07/2017 2:47:32 CH	Total number of batches in script: 45
+09/07/2017 2:47:32 CH	Total number of statements in script: 3
+09/07/2017 2:47:32 CH	The script was successfully imported into the project.
+09/07/2017 2:47:32 CH	Analyzing schema objects...
+09/07/2017 2:47:32 CH	Scanning project for duplicate elements
+09/07/2017 2:47:32 CH	Element 'Customer' was merged into the existing script: 'E:\HocNHibernate\NHibernate_repository\Database\dbo\Tables\Customer.sql'.
+09/07/2017 2:47:32 CH	Element 'Order' was merged into the existing script: 'E:\HocNHibernate\NHibernate_repository\Database\dbo\Tables\Order.sql'.
+09/07/2017 2:47:32 CH	Element 'FK_Order_Customer' was merged into the existing script: 'E:\HocNHibernate\NHibernate_repository\Database\dbo\Tables\Order.sql'.
+09/07/2017 2:47:32 CH	Finished duplicate element processing
+09/07/2017 2:47:32 CH	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+09/07/2017 2:47:32 CH	A summary of the import was saved to the following location: E:\HocNHibernate\NHibernate_repository\Database\Import Script Logs\script_sql_20170709074732.log
+09/07/2017 2:47:32 CH	Click Finish to continue...

@@ -1,0 +1,9 @@
+E:\HocNHibernate\NHibernate_repository\Database\bin\Debug\Database.dacpac
+E:\HocNHibernate\NHibernate_repository\Database\bin\Debug\Database.dll
+E:\HocNHibernate\NHibernate_repository\Database\bin\Debug\Database.pdb
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\Database.dll
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\Database.pdb
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\Model.xml
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\refactor.xml
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\postdeploy.sql
+E:\HocNHibernate\NHibernate_repository\Database\obj\Debug\predeploy.sql
